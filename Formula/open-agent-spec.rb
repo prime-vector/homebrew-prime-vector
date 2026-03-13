@@ -6,6 +6,7 @@ class OpenAgentSpec < Formula
   license "MIT"
 
   depends_on "python@3.12"
+  depends_on "hatchling" => :build
 
   def install
     system "python3", "-m", "pip", "install", *std_pip_args, "."
