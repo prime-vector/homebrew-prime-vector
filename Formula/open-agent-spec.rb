@@ -9,7 +9,7 @@ class OpenAgentSpec < Formula
 
   def install
     system Formula["python@3.12"].opt_bin/"python3", "-m", "venv", libexec
-    system libexec/"bin/pip", "install", buildpath
+    system libexec/"bin/pip", "install", "open-agent-spec==#{version}"
     bin.install_symlink libexec/"bin/oa"
   end
 
