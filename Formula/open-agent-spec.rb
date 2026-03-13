@@ -8,6 +8,7 @@ class OpenAgentSpec < Formula
   depends_on "python@3.12"
 
   def install
+    system "python3", "-m", "pip", "install", "hatchling"
     system "python3", "-m", "pip", "install", "--no-build-isolation", *std_pip_args, "."
     generate_completions_from_executable(bin/"oa", shell_parameter_format: :typer)
   end
