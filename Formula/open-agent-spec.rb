@@ -1,8 +1,8 @@
 class OpenAgentSpec < Formula
   desc "CLI for creating and running Open Agent Spec projects"
   homepage "https://www.openagentstack.ai"
-  url "https://files.pythonhosted.org/packages/f0/53/4afd2ba4e7a05ec33b4712806ed58237e565b8ab2ac505b94eef2d3ddcf9/open_agent_spec-1.2.8.tar.gz"
-  sha256 "f4c6d8619dd30603ad2dcaf94c9c91841d5110c2a5cfb88d5b88b1b5f269bbf1"
+  url "https://files.pythonhosted.org/packages/0c/80/43e50367c0a918c0b1c52816d4dc66db5caf5f41d211024580cf3489fe9b/open_agent_spec-1.2.9.tar.gz"
+  sha256 "846f43cf1f5c50213e5f5848aa1beaf984e93e8bb8d2d43e87c61956411a3e2d"
   license "MIT"
 
   depends_on "python@3.12"
